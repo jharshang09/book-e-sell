@@ -1,0 +1,57 @@
+.register-container{
+    height: 900px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.personalinformation{
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.infotext{
+    position: relative;
+    padding-right: 200px;
+    padding-left: 14px;
+}
+.infotext1 input[type=email] {
+    width: 78%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: white; 
+}
+.personalinformation input[type=password]{
+    width: 150%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: white;
+}
+.personalinformation input[type=text]{
+    width: 150%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: white; 
+}
+.personalinformation p, .infotext1 p{
+    font-size: 20px;
+    color: black;
+}
+.registerbtn1{
+    background-color: red;
+    color: white;
+    /* padding: 16px 20px; */
+    font-size: 20px;
+    /* margin: 8px 0; */
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+}

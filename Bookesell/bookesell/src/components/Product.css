@@ -1,0 +1,101 @@
+.product{
+    text-align: center;
+}
+.product hr{
+    width: 15%;
+    margin-top: -10px;
+}
+.rightbtn{
+    /* display: flex; */
+    text-align: right;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+.rightbtn input[type=text]{
+    width: 20%;
+    padding: 15px;
+    height: 10px;
+    /* margin: 5px 0 22px 0; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: white; 
+}
+.editbtn{
+    background-color: rgb(52, 17, 93);
+    color: white;
+    /* padding: 16px 20px; */
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 30px;
+    /* margin: 8px 0; */
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    opacity: 0.9;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 20px;
+}
+tr {
+    border-bottom: 1pt solid #948282;
+}
+th{
+    /* padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 100px; */
+    padding: 15px 90px 15px 80px;
+}
+.edtbtn{
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+.edtbtn:hover{
+    background-color: green;
+    color:white;
+}
+.deletebtn:hover{
+    background-color: red;
+    color:white;
+} 
+.deletebtn{
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+}
+.table-pagination{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    align-items: center;
+    margin-right: 150px;
+    font-size: 20px;
+}
+.table-pagination select{
+    margin-left: 10px;
+    height: 40px;
+    text-align-last: center;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+.prvbtn{
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: aliceblue;
+    color: black;
+}
+.prvbtn:hover, .nextbtn:hover{
+    background-color: red;
+    color: white;
+}
+.nextbtn{
+    background-color: aliceblue;
+    color: black;
+}

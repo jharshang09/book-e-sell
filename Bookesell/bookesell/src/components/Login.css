@@ -1,0 +1,83 @@
+.container{
+    padding-bottom: 20%;
+}
+.headername{
+    text-align: center;
+    margin-top: 1px;
+    /* margin-top: 10px; */
+}
+.breadcrumb-wrapper ol{
+    justify-content: center;
+    margin-bottom: 2px;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+.Account{
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.newcustomer{
+    margin: 5px;
+    width: 50%;
+    position: relative;
+    margin-top: 45px;
+}
+.newcustomer h3, .register h3{
+    color: #838383;
+}
+.register{
+    margin: 5px;
+    width: 40%;
+    height: 230px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+.textfields{
+    position: relative;
+}
+.newcustomer ul{
+    display: block;
+    list-style-type:circle;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.register input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.registerbtn {
+    background-color: red;
+    color: white;
+    /* padding: 16px 20px; */
+    font-size: 20px;
+    /* margin: 8px 0; */
+    margin-top: 140px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }
+.loginbtn{
+    background-color: red;
+    color: white;
+    /* padding: 16px 20px; */
+    font-size: 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+}

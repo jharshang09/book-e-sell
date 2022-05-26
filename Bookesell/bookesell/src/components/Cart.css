@@ -1,0 +1,105 @@
+.cartcontainer{
+    margin: auto;
+    width: 70%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart hr{
+    width: 15%;
+    margin-top: -10px;
+}
+.cart h1{
+    margin-top: 40px;
+}
+.headtitle{
+    font-size: 20px;
+}
+.totalprice{
+    font-size: 14px;
+}
+.Cart-Items{
+    margin: auto;
+    width: 70%;
+    height: 30%;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(156, 148, 148);
+    padding: 5px;
+}
+.image-box{
+    width: 15%;
+    text-align: center;
+}
+.about{
+    height: 100%;
+    margin-left: -400px;
+}
+.title{
+    padding-top: 1px;
+    line-height: 1px;
+    font-size: 32px;
+    color: #202020;
+    margin-bottom: 30px;
+}
+.subtitle{
+    line-height: 10px;
+    font-size: 18px;
+    color: red;
+    margin-bottom: 20px;
+}
+.counter{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counterbtn{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.count{
+    font-size: 20px;
+    color: #202020;
+}
+.prices{
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+}
+.amount{
+    /* padding-top: 10px; */
+    font-size: 26px;
+    color: #202020;
+    margin-bottom: 20px;
+}
+.off{
+    text-decoration-line: line-through;
+    font-size: 15px; 
+}
+.save{
+    padding-top: 1px;
+    font-size: 14px;
+    color: red;
+}
+.remove{
+    padding-top: 15px;
+    font-size: 14px;
+    color: red;
+}
+.placebtn{
+    margin-left: 200px;
+    color: white;
+    background-color: red;
+    width: 150px;
+}
